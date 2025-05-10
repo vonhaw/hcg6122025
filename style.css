@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", sans-serif;
+  background-color: #fffdf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* 顶部导航 */
+.navbar {
+  background-color: #ffb84d;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+  font-weight: bold;
+}
+
+/* 横幅 */
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #ffe8b6, #ffcc80);
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* 通用区块 */
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.bg-light {
+  background-color: #fff9ed;
+}
+
+/* 同学风采卡片 */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.student-card {
+  background: #ffefc2;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* 活动照片墙 */
+.photo-wall {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.photo-wall img {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* 老师寄语 */
+blockquote {
+  font-style: italic;
+  background-color: #fff1d6;
+  padding: 20px;
+  border-left: 5px solid #f0a500;
+  margin: 20px 0;
+}
+
+/* 留言表单 */
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message-form input,
+.message-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.message-form button {
+  padding: 10px;
+  background-color: #f0a500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+  background-color: #ffb84d;
+  color: white;
+  padding: 20px;
+}
