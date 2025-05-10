@@ -6,6 +6,31 @@
   <title>黄城根小学 六年级12班纪念网</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+  
+<script>
+  const music = document.getElementById('bg-music');
+  const playBtn = document.getElementById('play-btn');
+
+  let isPlaying = false;
+
+  playBtn.addEventListener('click', () => {
+    if (!isPlaying) {
+      music.play();
+      playBtn.textContent = '⏸ 暂停毕业歌';
+    } else {
+      music.pause();
+      playBtn.textContent = '▶ 播放毕业歌';
+    }
+    isPlaying = !isPlaying;
+  });
+
+  // 可选：页面加载后尝试自动播放（部分浏览器需用户交互才允许）
+  window.addEventListener('load', () => {
+    music.volume = 0.6;
+  });
+</script>
+  
+  
 <body>
   <!-- 顶部导航栏 -->
   <header class="navbar">
