@@ -130,3 +130,19 @@ footer {
   color: white;
   padding: 20px;
 }
+
+.music-player {
+  text-align: center;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+#play-btn {
+  background-color: #ff914d;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
